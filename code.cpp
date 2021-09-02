@@ -12,6 +12,7 @@ To determine whether a year is a leap year, follow these steps:
 
 */
 int next_leap_year(int year) {
+    // TODO(student): compute the next leap year on or after <year>
     return 1600;
 }
 
