@@ -4,8 +4,8 @@
 
 /*
 This file unit tests the function(s) in code.cpp
-Dr. Ritchey had to write this because Replit doesn't support unit testing for C++
-Byt the end of 121, you could be able to write this (and better), too.
+Dr. Ritchey had to write this because Replit doesn't support unit testing for C++ (smh)
+By the end of 121, you could be able to write this (and better), too.
 */
 
 std::tuple<int,int> test(const int* leap_years, int n, int offset);
