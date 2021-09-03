@@ -1,0 +1,8 @@
+language = "c++"
+run = "clear; if g++ -std=c++17 -Wall -Wextra -Weffc++ -pedantic -g main.cpp code.cpp; then ./a.out; else echo 'Build Failed'; rm ./a.out; fi"
+onBoot = "echo Try Harder"
+
+[packager]
+afterInstall="date >> package_install_log"
+ignoredPaths=[".git"]
+ignoredPackages=[]
